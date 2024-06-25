@@ -1,0 +1,7 @@
+//		HashMap<String, String> map = new HashMap<>();
+//		map.put("email", "tushar123456@gmail.com");
+//		map.put("password", "Tushar12345");
+//		
+//		HashMap<String, String> map_1 = new HashMap<>();
+//		map_1.put("email", "SH12345@gmail.com");
+//		map_1.put("password", "Sh123456");

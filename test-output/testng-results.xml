@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-21T00:22:13 IST" name="Default suite" finished-at="2024-06-21T00:23:02 IST" duration-ms="48395">
+    <groups>
+      <group name="Purchase">
+        <method signature="TestValidations.FirstOrder(java.util.HashMap)[pri:1, instance:E_commerce.E_commerce.TestValidations@40a4337a]" name="FirstOrder" class="E_commerce.E_commerce.TestValidations"/>
+      </group> <!-- Purchase -->
+      <group name="Regression">
+        <method signature="TestValidations.loginPage(java.util.HashMap)[pri:2, instance:E_commerce.E_commerce.TestValidations@40a4337a]" name="loginPage" class="E_commerce.E_commerce.TestValidations"/>
+      </group> <!-- Regression -->
+      <group name="E2E">
+        <method signature="TestValidations.FirstOrder(java.util.HashMap)[pri:1, instance:E_commerce.E_commerce.TestValidations@40a4337a]" name="FirstOrder" class="E_commerce.E_commerce.TestValidations"/>
+      </group> <!-- E2E -->
+      <group name="Invalid">
+        <method signature="TestValidations.loginPage(java.util.HashMap)[pri:2, instance:E_commerce.E_commerce.TestValidations@40a4337a]" name="loginPage" class="E_commerce.E_commerce.TestValidations"/>
+      </group> <!-- Invalid -->
+    </groups>
+    <test started-at="2024-06-21T00:22:13 IST" name="Default test" finished-at="2024-06-21T00:23:02 IST" duration-ms="48395">
+      <class name="E_commerce.E_commerce.TestValidations">
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:14 IST" name="StartInitialisation" finished-at="2024-06-21T00:22:28 IST" duration-ms="13293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="FirstOrder(java.util.HashMap)[pri:1, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:28 IST" name="FirstOrder" data-provider="getData" finished-at="2024-06-21T00:22:36 IST" duration-ms="7980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tushar1234, product=ZARA COAT 3, email=tushar1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:36 IST" name="close" finished-at="2024-06-21T00:22:36 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:36 IST" name="StartInitialisation" finished-at="2024-06-21T00:22:42 IST" duration-ms="6452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="FirstOrder(java.util.HashMap)[pri:1, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:42 IST" name="FirstOrder" data-provider="getData" finished-at="2024-06-21T00:22:47 IST" duration-ms="4813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sh123456, product=ADIDAS ORIGINAL, email=sh123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:47 IST" name="close" finished-at="2024-06-21T00:22:48 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:48 IST" name="StartInitialisation" finished-at="2024-06-21T00:22:53 IST" duration-ms="4894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="loginPage(java.util.HashMap)[pri:2, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:53 IST" name="loginPage" data-provider="getData2" finished-at="2024-06-21T00:22:54 IST" duration-ms="1135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=passwordtuyu, email=tushar1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:54 IST" name="close" finished-at="2024-06-21T00:22:54 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:22:54 IST" name="StartInitialisation" finished-at="2024-06-21T00:23:00 IST" duration-ms="6137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="loginPage(java.util.HashMap)[pri:2, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:23:00 IST" name="loginPage" data-provider="getData2" finished-at="2024-06-21T00:23:01 IST" duration-ms="1161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=koyal@123, email=ashi123@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:E_commerce.E_commerce.TestValidations@40a4337a]" started-at="2024-06-21T00:23:01 IST" name="close" finished-at="2024-06-21T00:23:02 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- E_commerce.E_commerce.TestValidations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
